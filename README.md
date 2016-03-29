@@ -23,10 +23,6 @@ Gulp 严格的插件指南确保插件如你期望的那样简洁高质得工作
 
 #### 1.4 使用
 > 项目目录下创建gulpfile.js文件
->
->const gulp = require('gulp');
-
-
 
 ### 二、开发中的使用
 
@@ -37,3 +33,5 @@ Gulp 严格的插件指南确保插件如你期望的那样简洁高质得工作
 #### 2.2 gulp-sass
 
 > [gulp-sass](https://www.npmjs.com/package/gulp-sass) 是一款编译.sass/.scss文件的gulp插件。极大的方便了我们的开发效率。
+
+### 未完待续...
