@@ -1,0 +1,22 @@
+{
+  "name": "gulp-deploy-demo",
+  "version": "1.0.0",
+  "description": "记录整理gulp构建项目插件及用法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyunxiang32/gulp-deploy-demo.git"
+  },
+  "author": "gyx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guyunxiang32/gulp-deploy-demo/issues"
+  },
+  "homepage": "https://github.com/guyunxiang32/gulp-deploy-demo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
