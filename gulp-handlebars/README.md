@@ -1,10 +1,10 @@
-#### handlebars
+### Handlebars
 
 > Handlebars 是 JavaScript 一个语义模板库，通过对view和data的分离来快速构建Web模板。它采用'Logic-less template'(无逻辑模板)的思路，在加载时被预编译，而不是到了客户端执行到代码时再去编译，这样可以保证模板加载和运行的速度。
 
 我也是最近才开始接触Handlebars，Handlebars的使用自然离不开预编译来加速客户端的运行速度。
 
-#### 预编译
+##### 预编译
 
 如果使用预编译模板，页面只需要引入handlebars运行库即可
 ```
@@ -23,7 +23,9 @@ $ handlebars <input> -f <output>
 Handlebars.templates.person(context,options);
 ```
 
-#### 需要用到的插件
+### gulp-handlebars
+
+##### 需要用到的插件
 
 * gulp-handlebars
 * gulp-wrap
@@ -41,7 +43,7 @@ npm install --save-dev gulp-handlebars gulp-wrap gulp-tap gulp-replace gulp-conc
 
 由于gulp-handlebars对4.0版本的模板编译支持比较异常（可能是我水平差不会用吧 - -!）,与handlebars命令编译的结果不一样
 
-**差异如下：**
+** 差异如下：**
 handlebars 预编译命令编译的结果为：
 ```
 (function() {
