@@ -5,6 +5,7 @@ const gulp = require('gulp'),
   replace = require('gulp-replace'),
   concat = require('gulp-concat');
 
+// 编译handlebars模板
 gulp.task('handlebars', function() {
   // 存放文件名
   var filename = '';
@@ -24,8 +25,13 @@ gulp.task('handlebars', function() {
         'templates["' + filename + '"] = template(<%= contents %>);})();'
     }))
     // 去除文件名后缀
-    .pipe(replace(/\.*.js/g, '')) 
+    .pipe(replace(/\.*.js/g, ''))
     // 合并模板文件
     .pipe(concat('templates.js'))
     .pipe(gulp.dest('js'))
+});
+
+// 监听文件自动编译
+gulp.task('watch', function() {
+  gulp.watch('templates/*.handlebars', ['handlebars'])
 });
