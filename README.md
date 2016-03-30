@@ -2,14 +2,22 @@
 
 #####导语
 
-> [gulp](http://gulpjs.com/) 是一款非常优秀的前端自动化构建工具。可以帮助我们处理掉很多繁琐的过程。平日了对于项目的开发和构建一直没有一个清晰的整理和归纳，这里新建了一个项目专门用于记录自己在gulp使用过程中的一些体验和心得。
+[gulp](http://gulpjs.com/) 是一款非常优秀的前端自动化构建工具。可以帮助我们处理掉很多繁琐的过程。平日了对于项目的开发和构建一直没有一个清晰的整理和归纳，这里新建了一个项目专门用于记录自己在gulp使用过程中的一些体验和心得。
 
-### 一、开发中的使用
+#### 一、开发中的使用
 
-#### 1.1 sass
+* gulp-sass
+* gulp-handlebars
+* gulp-babel
+* gulp-react
+* gulp-server-livereload
 
-> 对于sass的了解，一直也仅仅是限于书本和网络中，由于项目及个人原因一直没有实际操作过，知道最近才认识到自己的无知。遍私下里用sass开发了一些小的web站，对sass也有了新的认识。我也因此爱上了sass，我相信我才仅仅是认识到sass的冰山一角，还需要学的地方，还有很多。
+#### 二、发布时使用
 
-#### 1.2 gulp-sass
-
-> [gulp-sass](https://www.npmjs.com/package/gulp-sass) 是一款编译.sass/.scss文件的gulp插件。极大的方便了我们的开发效率。
+* gulp-uglify
+* gulp-minify-css
+* gulp-imagemin
+* gulp-copy
+* gulp-replace
+* gulp-rev
+* gulp-rev-collector
