@@ -6,10 +6,6 @@
 
 对于sass的了解，一直也仅仅是限于书本和网络中，由于项目及个人原因一直没有实际操作过，知道最近才认识到自己的无知。便私下里用sass开发了一些小的web站，对sass也有了新的认识。也因此爱上了sass，我知道我才仅仅是认识到sass的冰山一角，还需要学的地方，还有很多。
 
-#### gulp-sass
-
-[gulp-sass](https://www.npmjs.com/package/gulp-sass) 是一款编译.sass/.scss文件的gulp插件。极大的方便了我们的开发效率。
-
 #### 安装
 
 SASS是Ruby语言写的，但是两者的语法没有关系。不懂Ruby，照样使用。只是必须先安装Ruby，然后再安装SASS。
@@ -37,4 +33,12 @@ sass 提供四种编译风格选项：
 ```
 sass --watch input.scss:output.css
 sass --watch www/sass:dist/css
+```
+
+#### gulp-sass
+
+**安装命令**
+
+```
+npm install --save-dev gulp-sass
 ```
