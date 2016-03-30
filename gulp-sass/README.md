@@ -1,4 +1,4 @@
-#### sass
+### SASS
 
 > SASS的出现让CSS变得更加有意思。至于SASS是什么？就不在做更多的阐述，因为她并不是一个新鲜的产物，现在在互联网上可谓是铺天盖地。如果你实在想知道SASS是什么？那你只要简单得知道他是CSS预处理器语言的一种。
 
@@ -6,7 +6,7 @@
 
 对于sass的了解，一直也仅仅是限于书本和网络中，由于项目及个人原因一直没有实际操作过，知道最近才认识到自己的无知。便私下里用sass开发了一些小的web站，对sass也有了新的认识。也因此爱上了sass，我知道我才仅仅是认识到sass的冰山一角，还需要学的地方，还有很多。
 
-#### 安装
+##### 安装
 
 SASS是Ruby语言写的，但是两者的语法没有关系。不懂Ruby，照样使用。只是必须先安装Ruby，然后再安装SASS。
 假定你已经安装好了Ruby，接着在命令行输入下面的命令：
@@ -16,7 +16,7 @@ gem install sass
 ```
 
 
-#### 使用
+##### 使用
 
 ```
 sass test.scss test.css 
@@ -35,9 +35,9 @@ sass --watch input.scss:output.css
 sass --watch www/sass:dist/css
 ```
 
-#### gulp-sass
+### gulp-sass
 
-**安装命令**
+##### 安装命令
 
 ```
 npm install --save-dev gulp-sass
