@@ -61,7 +61,7 @@ handlebars 预编译命令编译的结果为：
 })();
 ```
 
-gulp-handlebars 官方示例编译结果为：
+gulp-handlebars 示例文档编译结果为：
 ```
 Handlebars.template({
   "compiler": [7, ">= 4.0.0"],
