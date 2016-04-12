@@ -25,7 +25,7 @@ gulp.task('handlebars', function() {
         'templates["' + filename + '"] = template(<%= contents %>);})();'
     }))
     // 去除文件名后缀
-    .pipe(replace(/\.*.js/g, ''))
+    .pipe(replace(/\.js/g, ''))
     // 合并模板文件
     .pipe(concat('templates.js'))
     .pipe(gulp.dest('js'))
