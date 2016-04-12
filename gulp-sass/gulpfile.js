@@ -4,7 +4,7 @@ const gulp = require('gulp'),
 // 编译scss文件
 gulp.task('sass', function() {
   gulp.src('sass/**/*.scss')
-    .pipe(sass())
+    .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('css'))
 });
 
